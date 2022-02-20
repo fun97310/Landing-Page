@@ -1,0 +1,245 @@
+:root {
+    --primary: #5b439c;
+    --secondary: #1da7ff;
+    --footer: #1c1b24;
+    --background: #ffffff;
+    --background-gray: #e5e5e5;
+    --text-color: #262626;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.purple{
+    background-color: var(--primary);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    color: var(--text-color);
+    font-family: Montserrat, Arial, sans-serif;
+}
+/*header style*/
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height:  60vh;
+}
+nav, ul , li{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    color: var(--background);
+    padding : 10px;
+    background-color: var(--primary);
+
+}
+li{
+    margin-right: 5%;
+    list-style: none;
+    align-self: flex-end;
+}
+li button{
+    background-color: var(--secondary);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    border-width: 2px 4px;
+    width: 9em;
+    font-size: 0.7em;
+    height: 2em;
+}
+
+h1, .backgroundsecond p{
+    color: #ffffff;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 2em;
+}
+
+.backgroundsecond p{
+    padding-left: 10%;
+    padding-top : 1%;
+    font-size: 1em;
+    color: #D6D6D6;
+    
+}
+
+/*feature*/
+
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 30em;
+
+}
+.features h2{
+    
+    margin-top: -2em;
+    
+}
+.ligne{
+    background-color: var(--primary);
+    border-top: 2px var(--primary) solid;
+    height: 2px;
+    width: 60px;
+    margin-bottom: 1em;
+}
+.feature-banner{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15em;
+    width: 80%;
+    text-align: center;
+}
+
+.feature-banner div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    width: 12em;
+    height: 12em;
+    
+
+}
+.feature-banner p{
+    justify-self: flex-end;
+    
+}
+.feature-banner img{
+    align-self: center;
+    min-height: 3.5em;
+    min-width: 3.5em;
+    max-width: 5em;
+    max-height: 5em;
+    padding: 0.5em;
+}
+
+.feature-banner p{
+    padding-top: 20%;   
+}
+
+.customer img{
+    padding: 0.7em;
+}
+
+.features .quotes{
+    background-color: var(--secondary);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    border-width: 2px 4px;
+    min-width: 18em;
+    height: 3em;
+    margin: 4% 0 0 4%;
+    
+}
+.feature-button{
+    display: flex;
+}
+.white-button{
+    background-color: whitesmoke;
+    color: var(--secondary);
+    border: 0.2px var(--secondary) solid;
+    border-radius: 40px;
+    border-width: 2px 2px;
+    width: 18em;
+    height: 3em;
+    margin: 4% 0 0 4%;
+    
+}
+/*statisque configuration*/
+.stat{
+
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    padding: 3%;
+    text-align: center;
+    color: #D6D6D6;
+    font-size: 2em;
+}
+
+.stat h2{
+    color: lightgrey;
+    opacity: 0.6;
+}
+.stat h3{
+    font-size: 0.7em;
+    color: white;
+}
+
+/*let's make our works*/
+
+h2{
+    text-align: center;
+    padding: 5% 0 5% 0;
+}
+.work {
+    background-color: var(--background-gray);
+}
+
+.card{
+    border: 1px black solid;
+    margin: 3px;
+    /*height: 250px;*/
+    max-width: 25%;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+
+.cardImage{
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.card-content{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.card p{
+    font-size: 1vh;
+    color: grey;
+    font-weight: bold;
+    
+}
+.card h4{
+    font-size: 100%;
+    font-weight: normal;
+
+}
+.card h5{
+    font-size: 1vh;
+    font-style: italic;
+    color: lightslategray;
+    border-radius: 100%;
+}
+.card h4, .card h5, .card p{
+    /*background-color: #ffffff;*/
+    padding-bottom: 10%;
+    padding-left: 5%;
+}
+
